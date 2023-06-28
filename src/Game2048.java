@@ -8,9 +8,15 @@ import javax.print.attribute.standard.MediaTray;
 
 public class Game2048 extends Game {
     public static final int SIDE = 4;
+    private int [][] gameField = new int [SIDE][SIDE];
 
     @Override
     public void initialize() {
         setScreenSize(SIDE, SIDE);
+        createGame();
+    }
+
+    private void createGame(){
+
     }
 }
