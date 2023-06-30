@@ -53,7 +53,7 @@
       <workItem from="1687898693703" duration="1357000" />
       <workItem from="1687983290199" duration="1390000" />
       <workItem from="1688071912056" duration="938000" />
-      <workItem from="1688145845708" duration="1589000" />
+      <workItem from="1688145845708" duration="2480000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1687813003169</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688072247102</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fulfillment of the condition &quot;when starting the game, the values of two random cells should be 2 or 4 with a probability of 90% and 10%, respectively&quot;">
+      <created>1688147494130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147494130</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +108,7 @@
     <MESSAGE value="Сhanging the size of the playing field" />
     <MESSAGE value="Array for storing state" />
     <MESSAGE value="Coloring the cells of the playing field" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coloring the cells of the playing field" />
+    <MESSAGE value="Fulfillment of the condition &quot;when starting the game, the values of two random cells should be 2 or 4 with a probability of 90% and 10%, respectively&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fulfillment of the condition &quot;when starting the game, the values of two random cells should be 2 or 4 with a probability of 90% and 10%, respectively&quot;" />
   </component>
 </project>
