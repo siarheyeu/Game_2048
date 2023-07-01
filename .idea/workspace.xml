@@ -53,7 +53,8 @@
       <workItem from="1687898693703" duration="1357000" />
       <workItem from="1687983290199" duration="1390000" />
       <workItem from="1688071912056" duration="938000" />
-      <workItem from="1688145845708" duration="2480000" />
+      <workItem from="1688145845708" duration="3533000" />
+      <workItem from="1688215388241" duration="1539000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1687813003169</created>
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688147494130</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Coloring cells with the same values in the same colors">
+      <created>1688148430924</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688148430924</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +117,7 @@
     <MESSAGE value="Array for storing state" />
     <MESSAGE value="Coloring the cells of the playing field" />
     <MESSAGE value="Fulfillment of the condition &quot;when starting the game, the values of two random cells should be 2 or 4 with a probability of 90% and 10%, respectively&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fulfillment of the condition &quot;when starting the game, the values of two random cells should be 2 or 4 with a probability of 90% and 10%, respectively&quot;" />
+    <MESSAGE value="Coloring cells with the same values in the same colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coloring cells with the same values in the same colors" />
   </component>
 </project>
