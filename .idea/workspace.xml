@@ -55,7 +55,8 @@
       <workItem from="1688071912056" duration="938000" />
       <workItem from="1688145845708" duration="3533000" />
       <workItem from="1688215388241" duration="1698000" />
-      <workItem from="1688235660145" duration="890000" />
+      <workItem from="1688235660145" duration="1016000" />
+      <workItem from="1688415747776" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1687813003169</created>
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688219355692</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implementation of the condition &quot;If two tiles with the same value &quot;collide&quot; with each other during the shift, they are connected into one, and its value is equal to the sum of the connected tiles.&quot;">
+      <created>1688238489880</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688238489880</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="Fulfillment of the condition &quot;when starting the game, the values of two random cells should be 2 or 4 with a probability of 90% and 10%, respectively&quot;" />
     <MESSAGE value="Coloring cells with the same values in the same colors" />
     <MESSAGE value="Implementing a left shift" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing a left shift" />
+    <MESSAGE value="Implementation of the condition &quot;If two tiles with the same value &quot;collide&quot; with each other during the shift, they are connected into one, and its value is equal to the sum of the connected tiles.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the condition &quot;If two tiles with the same value &quot;collide&quot; with each other during the shift, they are connected into one, and its value is equal to the sum of the connected tiles.&quot;" />
   </component>
 </project>

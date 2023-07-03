@@ -17,6 +17,19 @@ public class Game2048 extends Game {
         drawScene();
     }
 
+    @Override
+    public void onKeyPress(Key key) {
+        if (key == Key.UP) {
+            moveUp();
+        } else if (key == Key.RIGHT) {
+            moveRight();
+        } else if (key == Key.DOWN) {
+            moveDown();
+        } else if (key == Key.LEFT) {
+            moveLeft();
+        }
+    }
+
     private void createGame(){
         createNewNumber();
         createNewNumber();
@@ -71,6 +84,19 @@ public class Game2048 extends Game {
                 return Color.NONE;
         }
     }
+
+    private void moveLeft() {
+    }
+
+    private void moveRight() {
+    }
+
+    private void moveUp() {
+    }
+
+    private void moveDown() {
+    }
+
 
     private boolean compress Row(int[] row) {
         int insertPosition = 0;
