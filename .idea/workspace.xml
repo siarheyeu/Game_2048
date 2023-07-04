@@ -56,7 +56,8 @@
       <workItem from="1688145845708" duration="3533000" />
       <workItem from="1688215388241" duration="1698000" />
       <workItem from="1688235660145" duration="1016000" />
-      <workItem from="1688415747776" duration="661000" />
+      <workItem from="1688415747776" duration="1153000" />
+      <workItem from="1688503111955" duration="850000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1687813003169</created>
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688238489880</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Defining actions (shift, merge) by pressing certain keys">
+      <created>1688417892395</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688417892395</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +144,7 @@
     <MESSAGE value="Coloring cells with the same values in the same colors" />
     <MESSAGE value="Implementing a left shift" />
     <MESSAGE value="Implementation of the condition &quot;If two tiles with the same value &quot;collide&quot; with each other during the shift, they are connected into one, and its value is equal to the sum of the connected tiles.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the condition &quot;If two tiles with the same value &quot;collide&quot; with each other during the shift, they are connected into one, and its value is equal to the sum of the connected tiles.&quot;" />
+    <MESSAGE value="Defining actions (shift, merge) by pressing certain keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defining actions (shift, merge) by pressing certain keys" />
   </component>
 </project>
