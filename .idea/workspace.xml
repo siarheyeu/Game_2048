@@ -57,7 +57,8 @@
       <workItem from="1688215388241" duration="1698000" />
       <workItem from="1688235660145" duration="1016000" />
       <workItem from="1688415747776" duration="1153000" />
-      <workItem from="1688503111955" duration="850000" />
+      <workItem from="1688503111955" duration="1051000" />
+      <workItem from="1688577472015" duration="808000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1687813003169</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688417892395</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implementation of methods when pressing keys to move tiles">
+      <created>1688504399559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688504399559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +153,7 @@
     <MESSAGE value="Implementing a left shift" />
     <MESSAGE value="Implementation of the condition &quot;If two tiles with the same value &quot;collide&quot; with each other during the shift, they are connected into one, and its value is equal to the sum of the connected tiles.&quot;" />
     <MESSAGE value="Defining actions (shift, merge) by pressing certain keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining actions (shift, merge) by pressing certain keys" />
+    <MESSAGE value="Implementation of methods when pressing keys to move tiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of methods when pressing keys to move tiles" />
   </component>
 </project>
