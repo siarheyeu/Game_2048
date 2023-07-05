@@ -105,18 +105,29 @@ public class Game2048 extends Game {
             createNewNumber();
         }
     }
-    private void moveLeft() {
+    private void moveUp() {
+        rotateClockwise();
+        rotateClockwise();
+        rotateClockwise();
+        moveLeft();
+        rotateClockwise();
     }
 
     private void moveRight() {
-    }
-
-    private void moveUp() {
+        rotateClockwise();
+        rotateClockwise();
+        moveLeft();
+        rotateClockwise();
+        rotateClockwise();
     }
 
     private void moveDown() {
+        rotateClockwise();
+        moveLeft();
+        rotateClockwise();
+        rotateClockwise();
+        rotateClockwise();
     }
-
 
     private boolean compress Row(int[] row) {
         int insertPosition = 0;
