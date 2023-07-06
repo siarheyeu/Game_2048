@@ -9,6 +9,7 @@ import javax.print.attribute.standard.MediaTray;
 public class Game2048 extends Game {
     public static final int SIDE = 4;
     private int [][] gameField = new int [SIDE][SIDE];
+    private boolean isGameStopped = false;
 
     @Override
     public void initialize() {
@@ -38,17 +39,39 @@ public class Game2048 extends Game {
         createNewNumber();
     }
 
-    private void createNewNumber(){
-        boolean isCreated = false;
+    private createNewNumber(){
+        if (getMaxTileValue() >= 2048){
+            win();
+            return;
+        }
+
+    boolean isCreated = false;
         do {
-            int x = getRandomNumber(SIDE);
-            int y = getRandomNumber(SIDE);
-            if (gameField[y][x] == 0) {
-                gameField[y][x] = getRandomNumber(10) < 9 ? 2 : 4;
+        int x = getRandomNumber(SIDE);
+        int y = getRandomNumber(SIDE);
+        if (gameField[y][x] == 0) {
+            gameField[y][x] = getRandomNumber(10) < 9 ? 2 : 4;
             isCreated = true;
+        }
+    }
+        while (!isCreated);
+}
+
+    private int getMaxTileValue() {
+        int max = gameField[0][0];
+        for (int y = 0; y < SIDE; y++) {
+            for (int x = 0; x < SIDE; x++) {
+                if (gameField[y][x] > max) {
+                    max = gameField[y][x];
+                }
             }
         }
-        while(!isCreated);
+        return max;
+    }
+
+    private void win() {
+        showMessageDialog(Color.NONE, "YOU WIN!", Color.WHITE, 50);
+        isGameStopped = true;
     }
 
     private void setCellColoredNumber(int x, int y, int value){
@@ -129,7 +152,7 @@ public class Game2048 extends Game {
         rotateClockwise();
     }
 
-    private boolean compress Row(int[] row) {
+    private boolean compressRow(int[] row) {
         int insertPosition = 0;
         boolean result = false;
         for (int x = 0; x < SIDE; x++) {
