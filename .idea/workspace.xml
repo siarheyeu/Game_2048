@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f81e0c9-4821-4dad-be26-2ba7d0d3efcc" name="Changes" comment="Implementation of moveRight(), moveUp(), and moveDown() methods">
+    <list default="true" id="3f81e0c9-4821-4dad-be26-2ba7d0d3efcc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2048.java" afterDir="false" />
     </list>
@@ -59,7 +59,8 @@
       <workItem from="1688415747776" duration="1153000" />
       <workItem from="1688503111955" duration="1051000" />
       <workItem from="1688577472015" duration="1833000" />
-      <workItem from="1688676642280" duration="2933000" />
+      <workItem from="1688676642280" duration="3160000" />
+      <workItem from="1688845329427" duration="1190000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1687813003169</created>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688579197458</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implementation of win condition, game stopping logic, and max tile value calculation">
+      <created>1688680801555</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688680801555</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +190,7 @@
     <MESSAGE value="Implementation of methods when pressing keys to move tiles" />
     <MESSAGE value="Implementation of other methods related to tile movement" />
     <MESSAGE value="Implementation of moveRight(), moveUp(), and moveDown() methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of moveRight(), moveUp(), and moveDown() methods" />
+    <MESSAGE value="Implementation of win condition, game stopping logic, and max tile value calculation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of win condition, game stopping logic, and max tile value calculation" />
   </component>
 </project>
