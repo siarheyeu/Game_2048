@@ -20,6 +20,11 @@ public class Game2048 extends Game {
 
     @Override
     public void onKeyPress(Key key) {
+        if (!canUserMove()) {
+            gameOver();
+            return;
+        }
+
         if (key == Key.UP) {
             moveUp();
         } else if (key == Key.RIGHT) {
@@ -82,6 +87,11 @@ public class Game2048 extends Game {
             }
         }
         return max;
+    }
+
+    private void gameOver() {
+        showMessageDialog(Color.NONE, "GAME OVER!", Color.WHITE, 50);
+        isGameStopped = true;
     }
 
     private void win() {
