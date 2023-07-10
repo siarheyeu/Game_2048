@@ -11,6 +11,18 @@ public class Game2048 extends Game {
     private int [][] gameField = new int [SIDE][SIDE];
     private boolean isGameStopped = false;
 
+
+    @Override
+    public void onKeyPress(Key key) {
+        if (isGameStopped) {
+            if (key == Key.SPACE) {
+                isGameStopped = false;
+                createGame();
+                drawScene();
+            } else {
+                return;
+            }
+        }
     @Override
     public void initialize() {
         setScreenSize(SIDE, SIDE);
