@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f81e0c9-4821-4dad-be26-2ba7d0d3efcc" name="Changes" comment="" />
+    <list default="true" id="3f81e0c9-4821-4dad-be26-2ba7d0d3efcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game2048.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +61,8 @@
       <workItem from="1688577472015" duration="1833000" />
       <workItem from="1688676642280" duration="3160000" />
       <workItem from="1688845329427" duration="2805000" />
+      <workItem from="1689022514372" duration="1009000" />
+      <workItem from="1689105954524" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1687813003169</created>
@@ -171,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688853445722</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Implementation of the game restart mechanism">
+      <created>1689022795159</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689022795159</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +216,7 @@
     <MESSAGE value="Implementation of win condition, game stopping logic, and max tile value calculation" />
     <MESSAGE value="Realization of the loss in the game" />
     <MESSAGE value="Checking for the possibility of a move and a loss message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checking for the possibility of a move and a loss message" />
+    <MESSAGE value="Implementation of the game restart mechanism" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the game restart mechanism" />
   </component>
 </project>

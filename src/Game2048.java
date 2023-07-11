@@ -11,18 +11,8 @@ public class Game2048 extends Game {
     private int [][] gameField = new int [SIDE][SIDE];
     private boolean isGameStopped = false;
 
+    private int score = 0;
 
-    @Override
-    public void onKeyPress(Key key) {
-        if (isGameStopped) {
-            if (key == Key.SPACE) {
-                isGameStopped = false;
-                createGame();
-                drawScene();
-            } else {
-                return;
-            }
-        }
     @Override
     public void initialize() {
         setScreenSize(SIDE, SIDE);
@@ -32,6 +22,18 @@ public class Game2048 extends Game {
 
     @Override
     public void onKeyPress(Key key) {
+        if (isGameStopped) {
+            if (key == Key.SPACE) {
+                isGameStopped = false;
+                score = 0;
+                setScore(score);
+                createGame();
+                drawScene();
+            } else {
+                return;
+            }
+        }
+
         if (!canUserMove()) {
             gameOver();
             return;
@@ -52,6 +54,7 @@ public class Game2048 extends Game {
     }
 
     private void createGame(){
+        gameField = new int[SIDE][SIDE];
         createNewNumber();
         createNewNumber();
     }
@@ -150,8 +153,7 @@ public class Game2048 extends Game {
 
     private void moveLeft() {
         boolean isNewNumberNeeded = false;
-        for (int[]row:
-             gameField) {
+        for (int[]row : gameField) {
             boolean wasCompressed = compressRow(row);
             boolean wasMerged = mergeRow(row);
             if(wasMerged) {
@@ -212,6 +214,8 @@ public class Game2048 extends Game {
                 row[i] += row[i + 1];
                 row[i + 1] = 0;
                 result = true;
+                score += row[i];
+                setScore(score);
             }
         }
         return result;
